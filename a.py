@@ -10,6 +10,15 @@ import time,random
 import os
 
 
+a = None
+
+
+a['staut']
+
+exit()
+
+
+
 class test:
 
     name = random.random()

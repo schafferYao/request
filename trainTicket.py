@@ -33,7 +33,16 @@ if __name__ == '__main__':
     '''启动时查看状态为抢票中的记录'''
 
 
+
+
     login = Login()
+
+
+    '检测用户是cookie是否存在'
+    if login.checkUserLogin() == True:
+        pass
+
+
 
 
     thread1 = threading.Thread(target=threadCheckLoginStatus,args=(login,))
